@@ -1,2 +1,7 @@
 server:
-    port: 8888
+  port: 8888
+anti-config:
+  ribbon:
+    eureka:
+      enable: true
+    listOfServers: localhost:8090,localhost:9092,localhost:9999
