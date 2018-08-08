@@ -1,6 +1,6 @@
 server:
   port: 8888
-anti-config:
+configclient:
   ribbon:
     eureka:
       enable: true
