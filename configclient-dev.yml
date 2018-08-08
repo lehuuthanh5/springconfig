@@ -5,6 +5,7 @@ configclient:
     eureka:
       enable: true
     ServerListRefreshInterval: 15000
+    NIWSServerListClassName: com.netflix.niws.loadbalancer.DiscoveryEnabledNIWSServerList
 eureka:
   instance:
     hostname: ribbonclient
