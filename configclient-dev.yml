@@ -3,6 +3,5 @@ server:
 configclient:
   ribbon:
     eureka:
-      enable: false
-    listOfServers: localhost:8090,localhost:9092,localhost:9999
+      enable: true
     ServerListRefreshInterval: 15000
